@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply text-zinc-950 font-bold uppercase rounded-xl py-4 w-full transition duration-200 hover:-translate-y-1;
+
+    background: rgb(227,205,31);
+    background: radial-gradient(circle, rgba(227,205,31,1) 0%, rgba(255,162,0,1) 75%, rgba(251,164,47,1) 100%);
+  }
+  .title {
+    @apply text-white font-semibold text-3xl sm:text-4xl max-w-3xl text-left sm:text-center
+  }
+}
+
+.radial {
+  background: rgb(227,205,31);
+  background: radial-gradient(circle, rgba(227,205,31,.5) 0%, rgba(255,162,0,.5) 75%, rgba(251,164,47,.5) 100%);
+}
+.radial-2 {
+  background: rgb(208,41,49);
+  background: radial-gradient(circle, rgba(208,41,49,1) 0%, rgba(182,36,43,1) 75%, rgba(149,22,28,1) 100%);
+}
+.my-shadow {
+  -webkit-box-shadow: 4px 24px 30px 0px rgba(149,89,0,0.5);
+-moz-box-shadow: 4px 24px 30px 0px rgba(149,89,0,0.5);
+box-shadow: 4px 24px 30px 0px rgba(149,89,0,0.5);
+}
