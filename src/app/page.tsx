@@ -1,4 +1,3 @@
-import MySwiper from "@/components/MySwiper";
 import Button from "@/components/button";
 import Dropdown from "@/components/dropdown";
 import Footer from "@/components/footer";
@@ -21,7 +20,7 @@ export default function Page() {
           className="pb-12 sm:pb-24 px-4"
         >
           <div className="flex items-center flex-col gap-4">
-            <h2 className="title">Todos os dias recebemos prints com a transformação de nossos alunos</h2>
+            <h2 className="title">Veja o que acontece com quem aplica o ARAR</h2>
             <div className="max-w-6xl sm:grid sm:grid-cols-2 flex flex-col gap-4">
               <div className="">
                 <Image
@@ -49,14 +48,14 @@ export default function Page() {
         <Section classNameS="radial-2 pt-12 sm:pt-24 pb-6 sm:pb-12 px-4">
           <div className="flex items-center flex-col gap-12">
             <div className="flex flex-col sm:items-center gap-4">
-              <h2 className="title text-xl sm:text-2xl">Dê o primeiro passo para tirar seu casamento do sofrimento, das brigas e desonras. Transforme sua relação em um casamento restaurador e cheio de amor!</h2>
-              <p className="flex items-center gap-2 text-xl font-medium text-white">
-                <span>Clique no botão abaixo</span>
+              {/* <h2 className="title text-xl sm:text-2xl">Clique no </h2> */}
+              <p className="flex items-center flex-col gap-2 text-xl font-medium text-white max-w-2xl text-center">
+                <span>Clique no botão abaixo e dê o primeiro passo para acabar com o sofrimento, as brigas e desonras e transformar a sua relação em um casamento restaurado e cheio de amor</span>
                 <ArrowDownCircleIcon className="h-6 w-6" />
               </p>
-              <div className="w-full max-w-sm flex"><Button>Fazer inscrição</Button></div>
+              <div className="w-full max-w-sm flex"><Button>Quero salvar meu relacionameto</Button></div>
             </div>
-            <div className="flex flex-row gap-8">
+            {/* <div className="flex flex-row gap-8">
               <Icon
                 Icone={ComputerDesktopIcon}
                 text="Acesso imediato"
@@ -69,14 +68,14 @@ export default function Page() {
                 Icone={LockClosedIcon}
                 text="Compra segura"
               />
-            </div>
+            </div> */}
           </div>
         </Section>
         <Section classNameS="radial-2 pt-12 pb-12 sm:pb-24 px-4">
           <div className="flex flex-col items-center gap-12">
-            <div className="text-left sm:text-center">
-              <h2 className="title">Isso não é um curso comum</h2>
-              <p className="text-white sm:text-xl sm:mt-0 mt-4">É um passo a passo do que fazer na prática todos os dias</p>
+            <div className="text-left sm:text-center flex flex-col items-center gap-4 sm:max-w-4xl">
+              <h2 className="text-3xl font-bold text-white">Quem está com um relacionamento abalado não pode procrastinar, precisa tomar uma atitude antes que seja tarde demais.</h2>
+              <p className="text-white sm:text-xl sm:mt-0 mt-4">Por isso, em cada vídeo nós vamos direto ao ponto, sem enrolação com uma atividade prática para você aplicar e assim trazer de volta o carinho, o amor e o respeito que um dia existiu entre vocês.</p>
             </div>
             <div className="w-full max-w-2xl">
               <Image
@@ -90,60 +89,10 @@ export default function Page() {
         </Section>
         <Section classNameS="bg-zinc-950 py-12 sm:py-24">
           <div className="flex flex-col gap-6 sm:gap-12 text-center items-center">
-            <div className="flex flex-col gap-2 text-left sm:text-center max-w-2xl px-4">
+            {/* <div className="flex flex-col gap-2 text-left sm:text-center max-w-2xl px-4">
               <h2 className="title">Como é e como funciona o curso?</h2>
               <p className="text-zinc-200 sm:text-xl">É um programa onde você terá 45 vídeos explicando cada passo prático que você vai precisar aplicar diariamente para salvar o seu casamento e reacender o amor.</p>
-            </div>
-            <div className="flex flex-col gap-8 bg-zinc-800 py-12 px-4 sm:px-8 rounded-2xl sm:rounded-xl w-full max-w-2xl">
-              <h3 className="text-2xl sm:text-3xl text-white font-semibold">Não confunda:</h3>
-              <ul className="text-left flex flex-col gap-4">
-                <ListItem
-                  Icon={XMarkIcon}
-                  IconColor="text-red-500"
-                >
-                  Não é um curso sobre comunicação, mas vocês serão muito mais doces e amorosos ao conversar um com o outro
-                </ListItem>
-                <ListItem
-                  Icon={XMarkIcon}
-                  IconColor="text-red-500"
-                >
-                  Não é terapia de casal, mas a cada atividade diária, você perceberá melhora considerável no seu casamento
-                </ListItem>
-                <ListItem
-                  Icon={XMarkIcon}
-                  IconColor="text-red-500"
-                >
-                  Não é um curso sobre atração, mas vocês sentirão muito mais desejo de estar juntos para ter a intimidade do casal
-                </ListItem>
-                <ListItem
-                  Icon={XMarkIcon}
-                  IconColor="text-red-500"
-                >
-                  Não é uma fórmula para a felicidade, mas seus dias serão muito mais felizes ao ver seu casamento sendo restaurado dia após dia.
-                </ListItem>
-              </ul>
-            </div>
-            <div className="flex flex-col sm:items-center gap-4 px-4">
-              <h2 className="title text-xl sm:text-2xl">Dê o primeiro passo para tirar seu casamento do sofrimento, das brigas e desonras. Transforme sua relação em um casamento restaurador e cheio de amor!</h2>
-              <p className="flex items-center gap-2 text-xl font-medium text-white">
-                <span>Clique no botão abaixo</span>
-                <ArrowDownCircleIcon className="h-6 w-6" />
-              </p>
-              <div className="w-full max-w-sm flex"><Button>Fazer inscrição</Button></div>
-            </div>
-          </div>
-        </Section>
-        <Section classNameS="bg-zinc-950 pb-12 sm:pb-24">
-          <div className="flex flex-col gap-12 sm:gap-20 text-center items-center">
-            <h2 className="title px-4">Conheça a Tríade da Restauração usada no <strong>Método ARAR</strong></h2>
-            <div className="w-full max-w-xl px-4">
-              <Image
-                src="/images/bg2.png"
-                alt="Imagem da Tríde do Método: Deus, Resiliência e Amor"
-                width={767}
-                height={722}
-              />
-            </div>
+            </div> */}
             <div className="flex flex-col gap-8 bg-zinc-800 py-12 px-4 sm:px-8 rounded-2xl sm:rounded-xl w-full max-w-2xl">
               <h3 className="text-2xl sm:text-3xl text-white font-semibold">A Rota do Amor Restaurado é para você que:</h3>
               <ul className="text-left flex flex-col gap-4">
@@ -152,7 +101,7 @@ export default function Page() {
                   translate={true}
                   IconColor="text-emerald-500 translate-y-0"
                 >
-                  Está há anos tentando restaurar a sua relação mas não consegue
+                  Está há tempos tentando restaurar a sua relação mas não consegue
                 </ListItem>
                 <ListItem
                   Icon={CheckCircleIcon}
@@ -194,14 +143,64 @@ export default function Page() {
                   translate={true}
                   IconColor="text-emerald-500 translate-y-0"
                 >
-                  Quer viver uma relação com segurança, paz, harmonia e leveza
+                  Quer viver uma relação digna, honrosa, leve e cheia de amor.
                 </ListItem>
                 <ListItem
                   Icon={CheckCircleIcon}
                   translate={true}
                   IconColor="text-emerald-500 translate-y-0"
                 >
-                  Não quer deixar a relação acabar porque tem esperanças ainda
+                  Não quer deixar a relação acabar porque ainda o ama
+                </ListItem>
+              </ul>
+            </div>
+            
+            <div className="flex flex-col sm:items-center gap-4 px-4">
+              <p className="flex items-center flex-col gap-2 text-xl font-medium text-white">
+                <span>Clique no link abaixo e comece agora mesmo a restauração do seu casamento.</span>
+                <ArrowDownCircleIcon className="h-6 w-6" />
+              </p>
+              <div className="w-full max-w-sm flex"><Button>Quero salvar meu relacionameto</Button></div>
+            </div>
+          </div>
+        </Section>
+        <Section classNameS="bg-zinc-950 pb-12 sm:pb-24">
+          <div className="flex flex-col gap-12 sm:gap-20 text-center items-center">
+            <h2 className="title px-4">Conheça a Tríade da Restauração usada no <strong>Método ARAR</strong></h2>
+            <div className="w-full max-w-xl px-4">
+              <Image
+                src="/images/bg2.png"
+                alt="Imagem da Tríde do Método: Deus, Resiliência e Amor"
+                width={767}
+                height={722}
+              />
+            </div>
+            <div className="flex flex-col gap-8 bg-zinc-800 py-12 px-4 sm:px-8 rounded-2xl sm:rounded-xl w-full max-w-2xl">
+              <h3 className="text-xl sm:text-2xl text-white font-semibold">É um programa onde você terá 45 vídeos explicando cada passo prático que você vai precisar aplicar diariamente para salvar o seu casamento e reacender o amor</h3>
+              <ul className="text-left flex flex-col gap-4">
+                <ListItem
+                  Icon={XMarkIcon}
+                  IconColor="text-red-500"
+                >
+                  Não é um curso sobre comunicação, mas vocês serão muito mais doces e amorosos ao conversar um com o outro
+                </ListItem>
+                <ListItem
+                  Icon={XMarkIcon}
+                  IconColor="text-red-500"
+                >
+                  Não é terapia de casal, mas a cada atividade diária, vocês se sentirão mais amados um pelo outro.
+                </ListItem>
+                <ListItem
+                  Icon={XMarkIcon}
+                  IconColor="text-red-500"
+                >
+                  Não é um curso sobre atração, mas você vai se sentir desejada por ele de novo.
+                </ListItem>
+                <ListItem
+                  Icon={XMarkIcon}
+                  IconColor="text-red-500"
+                >
+                  Não é uma fórmula para a felicidade, mas será muito mais feliz ao ver seu casamento sendo restaurado dia após dia.
                 </ListItem>
               </ul>
             </div>
