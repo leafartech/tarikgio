@@ -21,6 +21,9 @@ export default function Page() {
         >
           <div className="flex items-center flex-col gap-4">
             <h2 className="title">Veja o que acontece com quem aplica o ARAR</h2>
+            <div className="mb-4 w-full flex justify-center">
+              <iframe className="sm:w-[624px] my-shadow w-full h-[252px] sm:h-96 rounded-xl" src="https://www.youtube.com/embed/zdgAhU5D-XQ?si=GfX_eq5qQ2yhrUnI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
             <div className="max-w-6xl sm:grid sm:grid-cols-2 flex flex-col gap-4">
               <div className="">
                 <Image
@@ -154,7 +157,7 @@ export default function Page() {
                 </ListItem>
               </ul>
             </div>
-            
+
             <div className="flex flex-col sm:items-center gap-4 px-4">
               <p className="flex items-center flex-col gap-2 text-xl font-medium text-white">
                 <span>Clique no link abaixo e comece agora mesmo a restauração do seu casamento.</span>
@@ -215,32 +218,32 @@ export default function Page() {
           <div className="flex flex-col items-center gap-6">
             <h2 className="title">Perguntas frequentes</h2>
             <div className="flex flex-col gap-2 sm:gap-4 w-full max-w-5xl">
-            <Dropdown
-              title="Meu cônjugue não quer restaurar a relação, funcionará para mim?"
-            >
-              <p>O método ARAR foi desenvolvido exatamente para pessoas que estão desesperançosas com o cônjuge, porque já sabem que ele(a) não irá querer tentar salvar a relação. Através do passo a passo, você conseguirá mudar a imagem mental que o seu cônjuge tem de você e consequentemente influencia-lo para construir uma relação extraordinária. </p>
-            </Dropdown>
-            <Dropdown
-              title="Consigo aplicar o método mesmo se não morarmos juntos?"
-            >
-              <p>Sim, o método ARAR é feito tanto para casais que moram juntos, quanto para casais que moram separados. O método foi desenvolvido pensando em todos os tipos de casais, e que estejam em qualquer situação. Além disso, caso você não consiga aplicar o desafio, você terá um grupo de apoio e uma plataforma para tirar dúvidas para conseguir aplicar todos os passos.</p>
-            </Dropdown>
-            <Dropdown
-              title="Já tentei de tudo, funciona para mim?"
-            >
-              <p>Sim. O método funciona porque ele é diferente de TUDO o que você já viu ou ousar tentar em sua vida. O que você vai ver dentro do método é algo extremamente prático e diferente de qualquer curso online que você já tenha assistido. O que você irá assistir e aplicar não tem disponível em nenhum outro lugar. </p>
-            </Dropdown>
-            <Dropdown
-              title="Não tenho tempo, conseguirei aplicar?"
-            >
-              <p>Com certeza. Cada passo do método que você assistirá tem no máximo 15 minutos de duração. Você deverá assistir uma vídeoaula por dia, e aplicar um passo por dia. Portanto sim, você conseguirá aplicar. Além disso, você terá um ano de acesso ao método para ver e rever quantas vezes quiser. </p>
-            </Dropdown>
-            <Dropdown
-              title="Estou separado, mas ainda mantenho contato. É possível voltar com o método?"
-            >
-              <p>Se vocês ainda mantém contato sim, é possível e temos inúmeros alunos que voltaram após aplicarem os 45 passos do método ARAR. O término acontece por conta da imagem mental negativa que foi construída na mente de cada um e através do método ARAR você conseguirá reverter essa imagem mental para reconquistar a pessoa que você ama. </p>
-            </Dropdown>
-          </div>
+              <Dropdown
+                title="Meu cônjugue não quer restaurar a relação, funcionará para mim?"
+              >
+                <p>O método ARAR foi desenvolvido exatamente para pessoas que estão desesperançosas com o cônjuge, porque já sabem que ele(a) não irá querer tentar salvar a relação. Através do passo a passo, você conseguirá mudar a imagem mental que o seu cônjuge tem de você e consequentemente influencia-lo para construir uma relação extraordinária. </p>
+              </Dropdown>
+              <Dropdown
+                title="Consigo aplicar o método mesmo se não morarmos juntos?"
+              >
+                <p>Sim, o método ARAR é feito tanto para casais que moram juntos, quanto para casais que moram separados. O método foi desenvolvido pensando em todos os tipos de casais, e que estejam em qualquer situação. Além disso, caso você não consiga aplicar o desafio, você terá um grupo de apoio e uma plataforma para tirar dúvidas para conseguir aplicar todos os passos.</p>
+              </Dropdown>
+              <Dropdown
+                title="Já tentei de tudo, funciona para mim?"
+              >
+                <p>Sim. O método funciona porque ele é diferente de TUDO o que você já viu ou ousar tentar em sua vida. O que você vai ver dentro do método é algo extremamente prático e diferente de qualquer curso online que você já tenha assistido. O que você irá assistir e aplicar não tem disponível em nenhum outro lugar. </p>
+              </Dropdown>
+              <Dropdown
+                title="Não tenho tempo, conseguirei aplicar?"
+              >
+                <p>Com certeza. Cada passo do método que você assistirá tem no máximo 15 minutos de duração. Você deverá assistir uma vídeoaula por dia, e aplicar um passo por dia. Portanto sim, você conseguirá aplicar. Além disso, você terá um ano de acesso ao método para ver e rever quantas vezes quiser. </p>
+              </Dropdown>
+              <Dropdown
+                title="Estou separado, mas ainda mantenho contato. É possível voltar com o método?"
+              >
+                <p>Se vocês ainda mantém contato sim, é possível e temos inúmeros alunos que voltaram após aplicarem os 45 passos do método ARAR. O término acontece por conta da imagem mental negativa que foi construída na mente de cada um e através do método ARAR você conseguirá reverter essa imagem mental para reconquistar a pessoa que você ama. </p>
+              </Dropdown>
+            </div>
           </div>
         </Section>
       </main>
