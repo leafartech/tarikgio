@@ -14,6 +14,10 @@
   }
 }
 
+* {
+  scroll-behavior: smooth
+}
+
 .radial {
   background: rgb(227,205,31);
   background: radial-gradient(circle, rgba(227,205,31,.5) 0%, rgba(255,162,0,.5) 75%, rgba(251,164,47,.5) 100%);

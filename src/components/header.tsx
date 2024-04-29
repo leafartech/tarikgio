@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function Header() {
     return (
-        <header className="min-h-screen w-full flex justify-center items-center bg-zinc-950 px-4 py-12">
+        <header className="min-h-screen w-full flex justify-center items-center bg-zinc-950 px-4 pt-8 pb-12">
             <div className="w-full max-w-6xl flex flex-col items-center gap-6">
                 <div className="flex flex-col items-center text-center gap-4">
                     <div className="w-40 sm:w-56">

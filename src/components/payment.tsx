@@ -21,7 +21,7 @@ export default function Payment() {
                 <p className="text-white">Clique no botão abaixo para entrar no grupo VIP onde será anunciado o valor promocional.</p>
             </div>
             <div className="flex">
-                <Button>Fazer inscrição</Button>
+                <Button checkout={true}>Fazer inscrição</Button>
             </div>
             <div className="flex justify-center">
                 <Image

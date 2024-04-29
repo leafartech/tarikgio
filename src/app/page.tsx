@@ -210,7 +210,7 @@ export default function Page() {
           </div>
         </Section>
         <Section classNameS="radial-2 py-12 sm:py-24">
-          <div className="">
+          <div className="" id="oferta">
             <Payment />
           </div>
         </Section>
