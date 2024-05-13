@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./button";
+import { Delay } from "./delay";
 
 export default function Header() {
     return (
@@ -20,7 +21,9 @@ export default function Header() {
                 <div className="radial p-[2px] w-full max-w-3xl sm:p-1 rounded-xl my-shadow">
                     <iframe className="w-full h-[256px] sm:h-[424px] rounded-xl" src="https://www.youtube.com/embed/pQNPVMWN9U4?si=-ecVvkHSjtncT3eR" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
-                <div className="w-full max-w-sm flex"><Button>Quero salvar meu relacionamento</Button></div>
+                <Delay>
+                    <div className="w-full max-w-sm flex"><Button>Quero salvar meu relacionamento</Button></div>
+                </Delay>
             </div>
         </header>
     )
