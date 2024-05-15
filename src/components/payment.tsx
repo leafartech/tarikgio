@@ -12,9 +12,9 @@ export default function Payment() {
                 </h5>
                 <h5 className="flex gap-2 items-end">
                     <span className="text-zinc-200 font-medium text-lg">12x de R$ </span>
-                    <span className="text-3xl sm:text-4xl font-bold">34,84</span>
+                    <span className="text-3xl sm:text-4xl font-bold">24,80</span>
                 </h5>
-                <h5 className="mt-2">ou R$ 347 à vista</h5>
+                <h5 className="mt-2">ou R$ 247 à vista</h5>
                 {/* <h5 className="text-3xl">por <strong>12x de 34,84</strong></h5> */}
             </div>
             <div className="py-2 border-y border-white">
