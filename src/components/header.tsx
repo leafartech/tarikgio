@@ -19,7 +19,7 @@ export default function Header() {
                     <p className="text-zinc-200 sm:text-lg font-medium">Assista o vídeo e descubra como você pode começar hoje a recuperar seu relacionamento com atividades 100% práticas</p>
                 </div>
                 <div className="radial p-[2px] w-full max-w-3xl sm:p-1 rounded-xl my-shadow">
-                    <iframe className="w-full h-[256px] sm:h-[424px] rounded-xl" src="https://youtu.be/5TprfYmZMnw?si=0wx3c_29qFXRBgU-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <iframe className="w-full h-[256px] sm:h-[424px] rounded-xl" src="https://www.youtube.com/embed/5TprfYmZMnw?si=fmPelI-698FeOpRE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 <Delay>
                     <div className="w-full max-w-sm flex"><Button>Quero salvar meu relacionamento</Button></div>
