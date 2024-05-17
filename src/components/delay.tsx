@@ -11,7 +11,7 @@ export function Delay({ children }: DelayProps) {
 
     setTimeout(() => {
         setOpenPage(true)
-    }, 300000); // 300000 milissegundos são iguais a 5 minutos
+    }, 240000); // 240000 milissegundos são iguais a 4 minutos
 
     return (
         <div>
